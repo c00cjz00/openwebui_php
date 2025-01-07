@@ -1,0 +1,1200 @@
+2024/12/22 11:00:13 [notice] 1#1: using the "epoll" event method
+2024/12/22 11:00:13 [notice] 1#1: nginx/1.27.3
+2024/12/22 11:00:13 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/22 11:00:13 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/22 11:00:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/22 11:00:13 [notice] 1#1: start worker processes
+2024/12/22 11:00:13 [notice] 1#1: start worker process 28
+2024/12/22 11:00:13 [notice] 1#1: start worker process 29
+2024/12/22 11:00:13 [notice] 1#1: start worker process 30
+2024/12/22 11:00:13 [notice] 1#1: start worker process 31
+2024/12/22 11:00:13 [notice] 1#1: start worker process 32
+2024/12/22 11:00:13 [notice] 1#1: start worker process 33
+2024/12/22 11:00:13 [notice] 1#1: start worker process 34
+2024/12/22 11:00:13 [notice] 1#1: start worker process 35
+2024/12/22 11:00:14 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/22 11:00:14 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/22 11:00:18 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/22 11:09:03 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/22 11:09:03 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/22 11:11:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/12/22 11:11:38 [notice] 28#28: gracefully shutting down
+2024/12/22 11:11:38 [notice] 29#29: gracefully shutting down
+2024/12/22 11:11:38 [notice] 30#30: gracefully shutting down
+2024/12/22 11:11:38 [notice] 31#31: gracefully shutting down
+2024/12/22 11:11:38 [notice] 32#32: gracefully shutting down
+2024/12/22 11:11:38 [notice] 30#30: exiting
+2024/12/22 11:11:38 [notice] 29#29: exiting
+2024/12/22 11:11:38 [notice] 28#28: exiting
+2024/12/22 11:11:38 [notice] 31#31: exiting
+2024/12/22 11:11:38 [notice] 32#32: exiting
+2024/12/22 11:11:38 [notice] 33#33: gracefully shutting down
+2024/12/22 11:11:38 [notice] 35#35: gracefully shutting down
+2024/12/22 11:11:38 [notice] 33#33: exiting
+2024/12/22 11:11:38 [notice] 29#29: exit
+2024/12/22 11:11:38 [notice] 31#31: exit
+2024/12/22 11:11:38 [notice] 28#28: exit
+2024/12/22 11:11:38 [notice] 32#32: exit
+2024/12/22 11:11:38 [notice] 30#30: exit
+2024/12/22 11:11:38 [notice] 35#35: exiting
+2024/12/22 11:11:38 [notice] 34#34: gracefully shutting down
+2024/12/22 11:11:38 [notice] 35#35: exit
+2024/12/22 11:11:38 [notice] 33#33: exit
+2024/12/22 11:11:38 [notice] 34#34: exiting
+2024/12/22 11:11:38 [notice] 34#34: exit
+2024/12/22 11:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/12/22 11:11:38 [notice] 1#1: worker process 28 exited with code 0
+2024/12/22 11:11:38 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 11:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/12/22 11:11:38 [notice] 1#1: worker process 33 exited with code 0
+2024/12/22 11:11:38 [notice] 1#1: worker process 29 exited with code 0
+2024/12/22 11:11:38 [notice] 1#1: worker process 31 exited with code 0
+2024/12/22 11:11:38 [notice] 1#1: worker process 34 exited with code 0
+2024/12/22 11:11:38 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 11:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/12/22 11:11:38 [notice] 1#1: worker process 30 exited with code 0
+2024/12/22 11:11:38 [notice] 1#1: worker process 32 exited with code 0
+2024/12/22 11:11:38 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 11:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/12/22 11:11:38 [notice] 1#1: worker process 35 exited with code 0
+2024/12/22 11:11:38 [notice] 1#1: exit
+2024/12/22 12:51:07 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:51:08 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:51:08 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:51:09 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:51:10 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:51:12 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:51:15 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:51:22 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:51:35 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:52:01 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:52:52 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:53:52 [emerg] 1#1: a duplicate default server for 0.0.0.0:443 in /etc/nginx/conf.d/nstc125.conf:3
+2024/12/22 12:54:25 [notice] 1#1: using the "epoll" event method
+2024/12/22 12:54:25 [notice] 1#1: nginx/1.27.3
+2024/12/22 12:54:25 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/22 12:54:25 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/22 12:54:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/22 12:54:25 [notice] 1#1: start worker processes
+2024/12/22 12:54:25 [notice] 1#1: start worker process 28
+2024/12/22 12:54:25 [notice] 1#1: start worker process 29
+2024/12/22 12:54:25 [notice] 1#1: start worker process 30
+2024/12/22 12:54:25 [notice] 1#1: start worker process 31
+2024/12/22 12:54:25 [notice] 1#1: start worker process 32
+2024/12/22 12:54:25 [notice] 1#1: start worker process 33
+2024/12/22 12:54:25 [notice] 1#1: start worker process 34
+2024/12/22 12:54:25 [notice] 1#1: start worker process 35
+2024/12/22 12:54:34 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/22 12:54:35 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/22 12:54:39 [error] 30#30: *9 open() "/var/www/html/abc/404.html" failed (2: No such file or directory), client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET /login.php HTTP/1.1", host: "nstc125.biobank.org.tw"
+2024/12/22 12:54:39 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/22 12:54:39 [error] 30#30: *9 open() "/var/www/html/abc/404.html" failed (2: No such file or directory), client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET /login.php HTTP/1.1", host: "nstc125.biobank.org.tw"
+2024/12/22 12:54:43 [error] 30#30: *9 directory index of "/var/www/html/abc/" is forbidden, client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET / HTTP/1.1", host: "nstc125.biobank.org.tw"
+2024/12/22 12:54:48 [error] 30#30: *9 open() "/var/www/html/abc/404.html" failed (2: No such file or directory), client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET /index.php HTTP/1.1", host: "nstc125.biobank.org.tw"
+2024/12/22 12:55:15 [error] 30#30: *9 directory index of "/var/www/html/abc/" is forbidden, client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET / HTTP/1.1", host: "nstc125.biobank.org.tw"
+2024/12/22 12:55:22 [error] 30#30: *9 open() "/var/www/html/abc/404.html" failed (2: No such file or directory), client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET /index.php HTTP/1.1", host: "nstc125.biobank.org.tw"
+2024/12/22 12:55:50 [error] 30#30: *9 open() "/var/www/html/abc/404.html" failed (2: No such file or directory), client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET /login.php HTTP/1.1", host: "nstc125.biobank.org.tw"
+2024/12/22 12:55:51 [error] 30#30: *9 open() "/var/www/html/abc/favicon.ico" failed (2: No such file or directory), client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET /favicon.ico HTTP/1.1", host: "nstc125.biobank.org.tw", referrer: "https://nstc125.biobank.org.tw/login.php"
+2024/12/22 12:55:53 [error] 30#30: *9 directory index of "/var/www/html/abc/" is forbidden, client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET / HTTP/1.1", host: "nstc125.biobank.org.tw"
+2024/12/22 12:55:53 [error] 30#30: *9 directory index of "/var/www/html/abc/" is forbidden, client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET / HTTP/1.1", host: "nstc125.biobank.org.tw"
+2024/12/22 12:56:52 [error] 30#30: *9 directory index of "/var/www/html/abc/" is forbidden, client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET / HTTP/1.1", host: "nstc125.biobank.org.tw"
+2024/12/22 12:56:56 [error] 30#30: *9 open() "/var/www/html/abc/404.html" failed (2: No such file or directory), client: 125.229.100.159, server: nstc125.biobank.org.tw, request: "GET /index.php HTTP/1.1", host: "nstc125.biobank.org.tw"
+2024/12/22 12:57:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/12/22 12:57:42 [notice] 28#28: gracefully shutting down
+2024/12/22 12:57:42 [notice] 29#29: gracefully shutting down
+2024/12/22 12:57:42 [notice] 28#28: exiting
+2024/12/22 12:57:42 [notice] 32#32: gracefully shutting down
+2024/12/22 12:57:42 [notice] 31#31: gracefully shutting down
+2024/12/22 12:57:42 [notice] 29#29: exiting
+2024/12/22 12:57:42 [notice] 33#33: gracefully shutting down
+2024/12/22 12:57:42 [notice] 30#30: gracefully shutting down
+2024/12/22 12:57:42 [notice] 34#34: gracefully shutting down
+2024/12/22 12:57:42 [notice] 32#32: exiting
+2024/12/22 12:57:42 [notice] 31#31: exiting
+2024/12/22 12:57:42 [notice] 34#34: exiting
+2024/12/22 12:57:42 [notice] 35#35: gracefully shutting down
+2024/12/22 12:57:42 [notice] 35#35: exiting
+2024/12/22 12:57:42 [notice] 28#28: exit
+2024/12/22 12:57:42 [notice] 29#29: exit
+2024/12/22 12:57:42 [notice] 30#30: exiting
+2024/12/22 12:57:42 [notice] 32#32: exit
+2024/12/22 12:57:42 [notice] 31#31: exit
+2024/12/22 12:57:42 [notice] 35#35: exit
+2024/12/22 12:57:42 [notice] 30#30: exit
+2024/12/22 12:57:42 [notice] 34#34: exit
+2024/12/22 12:57:42 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/12/22 12:57:42 [notice] 1#1: worker process 30 exited with code 0
+2024/12/22 12:57:42 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 12:57:42 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/12/22 12:57:42 [notice] 1#1: worker process 28 exited with code 0
+2024/12/22 12:57:42 [notice] 1#1: worker process 29 exited with code 0
+2024/12/22 12:57:42 [notice] 1#1: worker process 32 exited with code 0
+2024/12/22 12:57:42 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 12:57:42 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/12/22 12:57:42 [notice] 1#1: worker process 31 exited with code 0
+2024/12/22 12:57:42 [notice] 1#1: worker process 34 exited with code 0
+2024/12/22 12:57:42 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 12:57:42 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/12/22 12:57:42 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/12/22 12:57:42 [notice] 1#1: worker process 35 exited with code 0
+2024/12/22 12:57:42 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 12:57:52 [notice] 33#33: exiting
+2024/12/22 12:57:52 [notice] 33#33: exit
+2024/12/22 12:57:52 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/12/22 12:57:52 [notice] 1#1: worker process 33 exited with code 0
+2024/12/22 12:57:52 [notice] 1#1: exit
+2024/12/22 13:01:29 [notice] 1#1: using the "epoll" event method
+2024/12/22 13:01:29 [notice] 1#1: nginx/1.27.3
+2024/12/22 13:01:29 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/22 13:01:29 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/22 13:01:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/22 13:01:29 [notice] 1#1: start worker processes
+2024/12/22 13:01:29 [notice] 1#1: start worker process 28
+2024/12/22 13:01:29 [notice] 1#1: start worker process 29
+2024/12/22 13:01:29 [notice] 1#1: start worker process 30
+2024/12/22 13:01:29 [notice] 1#1: start worker process 31
+2024/12/22 13:01:29 [notice] 1#1: start worker process 32
+2024/12/22 13:01:29 [notice] 1#1: start worker process 33
+2024/12/22 13:01:29 [notice] 1#1: start worker process 34
+2024/12/22 13:01:29 [notice] 1#1: start worker process 35
+2024/12/22 13:01:36 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/22 13:02:35 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/22 13:03:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/12/22 13:03:02 [notice] 30#30: gracefully shutting down
+2024/12/22 13:03:02 [notice] 29#29: gracefully shutting down
+2024/12/22 13:03:02 [notice] 28#28: gracefully shutting down
+2024/12/22 13:03:02 [notice] 32#32: gracefully shutting down
+2024/12/22 13:03:02 [notice] 31#31: gracefully shutting down
+2024/12/22 13:03:02 [notice] 33#33: gracefully shutting down
+2024/12/22 13:03:02 [notice] 35#35: gracefully shutting down
+2024/12/22 13:03:02 [notice] 34#34: gracefully shutting down
+2024/12/22 13:03:02 [notice] 32#32: exiting
+2024/12/22 13:03:02 [notice] 33#33: exiting
+2024/12/22 13:03:02 [notice] 35#35: exiting
+2024/12/22 13:03:02 [notice] 34#34: exiting
+2024/12/22 13:03:02 [notice] 28#28: exiting
+2024/12/22 13:03:02 [notice] 30#30: exiting
+2024/12/22 13:03:02 [notice] 28#28: exit
+2024/12/22 13:03:02 [notice] 30#30: exit
+2024/12/22 13:03:02 [notice] 35#35: exit
+2024/12/22 13:03:02 [notice] 33#33: exit
+2024/12/22 13:03:02 [notice] 32#32: exit
+2024/12/22 13:03:02 [notice] 34#34: exit
+2024/12/22 13:03:02 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/12/22 13:03:02 [notice] 1#1: worker process 35 exited with code 0
+2024/12/22 13:03:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 13:03:02 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/12/22 13:03:02 [notice] 1#1: worker process 28 exited with code 0
+2024/12/22 13:03:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 13:03:02 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/12/22 13:03:02 [notice] 1#1: worker process 32 exited with code 0
+2024/12/22 13:03:02 [notice] 1#1: worker process 34 exited with code 0
+2024/12/22 13:03:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 13:03:02 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/12/22 13:03:02 [notice] 1#1: worker process 33 exited with code 0
+2024/12/22 13:03:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 13:03:02 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/12/22 13:03:02 [notice] 1#1: worker process 30 exited with code 0
+2024/12/22 13:03:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/22 13:03:10 [notice] 29#29: exiting
+2024/12/22 13:03:10 [notice] 29#29: exit
+2024/12/22 13:03:10 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/12/22 13:03:10 [notice] 1#1: worker process 29 exited with code 0
+2024/12/22 13:03:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:05:44 [notice] 1#1: using the "epoll" event method
+2024/12/28 03:05:44 [notice] 1#1: nginx/1.27.3
+2024/12/28 03:05:44 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/28 03:05:44 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/28 03:05:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/28 03:05:44 [notice] 1#1: start worker processes
+2024/12/28 03:05:44 [notice] 1#1: start worker process 28
+2024/12/28 03:05:44 [notice] 1#1: start worker process 29
+2024/12/28 03:05:44 [notice] 1#1: start worker process 30
+2024/12/28 03:05:44 [notice] 1#1: start worker process 31
+2024/12/28 03:05:44 [notice] 1#1: start worker process 32
+2024/12/28 03:05:44 [notice] 1#1: start worker process 33
+2024/12/28 03:05:44 [notice] 1#1: start worker process 34
+2024/12/28 03:05:44 [notice] 1#1: start worker process 35
+2024/12/28 03:06:37 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 03:06:37 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 03:06:40 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:06:40 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 03:06:41 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 03:06:41 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 03:09:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/12/28 03:09:39 [notice] 28#28: gracefully shutting down
+2024/12/28 03:09:39 [notice] 30#30: gracefully shutting down
+2024/12/28 03:09:39 [notice] 29#29: gracefully shutting down
+2024/12/28 03:09:39 [notice] 32#32: gracefully shutting down
+2024/12/28 03:09:39 [notice] 33#33: gracefully shutting down
+2024/12/28 03:09:39 [notice] 28#28: exiting
+2024/12/28 03:09:39 [notice] 30#30: exiting
+2024/12/28 03:09:39 [notice] 31#31: gracefully shutting down
+2024/12/28 03:09:39 [notice] 29#29: exiting
+2024/12/28 03:09:39 [notice] 32#32: exiting
+2024/12/28 03:09:39 [notice] 33#33: exiting
+2024/12/28 03:09:39 [notice] 31#31: exiting
+2024/12/28 03:09:39 [notice] 31#31: exit
+2024/12/28 03:09:39 [notice] 32#32: exit
+2024/12/28 03:09:39 [notice] 28#28: exit
+2024/12/28 03:09:39 [notice] 33#33: exit
+2024/12/28 03:09:39 [notice] 30#30: exit
+2024/12/28 03:09:39 [notice] 29#29: exit
+2024/12/28 03:09:39 [notice] 34#34: gracefully shutting down
+2024/12/28 03:09:39 [notice] 34#34: exiting
+2024/12/28 03:09:39 [notice] 35#35: gracefully shutting down
+2024/12/28 03:09:39 [notice] 35#35: exiting
+2024/12/28 03:09:39 [notice] 34#34: exit
+2024/12/28 03:09:39 [notice] 35#35: exit
+2024/12/28 03:09:39 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/12/28 03:09:39 [notice] 1#1: worker process 32 exited with code 0
+2024/12/28 03:09:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:09:39 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/12/28 03:09:39 [notice] 1#1: worker process 29 exited with code 0
+2024/12/28 03:09:39 [notice] 1#1: worker process 33 exited with code 0
+2024/12/28 03:09:39 [notice] 1#1: worker process 34 exited with code 0
+2024/12/28 03:09:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:09:39 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/12/28 03:09:39 [notice] 1#1: worker process 31 exited with code 0
+2024/12/28 03:09:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:09:39 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/12/28 03:09:39 [notice] 1#1: worker process 28 exited with code 0
+2024/12/28 03:09:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:09:39 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/12/28 03:09:39 [notice] 1#1: worker process 35 exited with code 0
+2024/12/28 03:09:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:09:39 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/12/28 03:09:39 [notice] 1#1: worker process 30 exited with code 0
+2024/12/28 03:09:39 [notice] 1#1: exit
+2024/12/28 03:11:05 [notice] 1#1: using the "epoll" event method
+2024/12/28 03:11:05 [notice] 1#1: nginx/1.27.3
+2024/12/28 03:11:05 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/28 03:11:05 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/28 03:11:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/28 03:11:05 [notice] 1#1: start worker processes
+2024/12/28 03:11:05 [notice] 1#1: start worker process 28
+2024/12/28 03:11:05 [notice] 1#1: start worker process 29
+2024/12/28 03:11:05 [notice] 1#1: start worker process 30
+2024/12/28 03:11:05 [notice] 1#1: start worker process 31
+2024/12/28 03:11:05 [notice] 1#1: start worker process 32
+2024/12/28 03:11:05 [notice] 1#1: start worker process 33
+2024/12/28 03:11:05 [notice] 1#1: start worker process 34
+2024/12/28 03:11:05 [notice] 1#1: start worker process 35
+2024/12/28 03:11:30 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 03:11:31 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:11:31 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 03:17:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/12/28 03:17:48 [notice] 28#28: gracefully shutting down
+2024/12/28 03:17:48 [notice] 29#29: gracefully shutting down
+2024/12/28 03:17:48 [notice] 30#30: gracefully shutting down
+2024/12/28 03:17:48 [notice] 31#31: gracefully shutting down
+2024/12/28 03:17:48 [notice] 32#32: gracefully shutting down
+2024/12/28 03:17:48 [notice] 33#33: gracefully shutting down
+2024/12/28 03:17:48 [notice] 35#35: gracefully shutting down
+2024/12/28 03:17:48 [notice] 28#28: exiting
+2024/12/28 03:17:48 [notice] 30#30: exiting
+2024/12/28 03:17:48 [notice] 29#29: exiting
+2024/12/28 03:17:48 [notice] 31#31: exiting
+2024/12/28 03:17:48 [notice] 32#32: exiting
+2024/12/28 03:17:48 [notice] 33#33: exiting
+2024/12/28 03:17:48 [notice] 35#35: exiting
+2024/12/28 03:17:48 [notice] 30#30: exit
+2024/12/28 03:17:48 [notice] 32#32: exit
+2024/12/28 03:17:48 [notice] 35#35: exit
+2024/12/28 03:17:48 [notice] 31#31: exit
+2024/12/28 03:17:48 [notice] 28#28: exit
+2024/12/28 03:17:48 [notice] 29#29: exit
+2024/12/28 03:17:48 [notice] 34#34: gracefully shutting down
+2024/12/28 03:17:48 [notice] 34#34: exiting
+2024/12/28 03:17:48 [notice] 33#33: exit
+2024/12/28 03:17:48 [notice] 34#34: exit
+2024/12/28 03:17:48 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/12/28 03:17:48 [notice] 1#1: worker process 28 exited with code 0
+2024/12/28 03:17:48 [notice] 1#1: worker process 30 exited with code 0
+2024/12/28 03:17:48 [notice] 1#1: worker process 31 exited with code 0
+2024/12/28 03:17:48 [notice] 1#1: worker process 32 exited with code 0
+2024/12/28 03:17:48 [notice] 1#1: worker process 33 exited with code 0
+2024/12/28 03:17:48 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:17:48 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/12/28 03:17:48 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/12/28 03:17:48 [notice] 1#1: worker process 29 exited with code 0
+2024/12/28 03:17:48 [notice] 1#1: worker process 34 exited with code 0
+2024/12/28 03:17:48 [notice] 1#1: worker process 35 exited with code 0
+2024/12/28 03:17:48 [notice] 1#1: exit
+2024/12/28 03:17:53 [notice] 1#1: using the "epoll" event method
+2024/12/28 03:17:53 [notice] 1#1: nginx/1.27.3
+2024/12/28 03:17:53 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/28 03:17:53 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/28 03:17:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/28 03:17:53 [notice] 1#1: start worker processes
+2024/12/28 03:17:53 [notice] 1#1: start worker process 28
+2024/12/28 03:17:53 [notice] 1#1: start worker process 29
+2024/12/28 03:17:53 [notice] 1#1: start worker process 30
+2024/12/28 03:17:53 [notice] 1#1: start worker process 31
+2024/12/28 03:17:53 [notice] 1#1: start worker process 32
+2024/12/28 03:17:53 [notice] 1#1: start worker process 33
+2024/12/28 03:17:53 [notice] 1#1: start worker process 34
+2024/12/28 03:17:53 [notice] 1#1: start worker process 35
+2024/12/28 03:17:57 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:17:57 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:18:03 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:19:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/12/28 03:19:03 [notice] 28#28: gracefully shutting down
+2024/12/28 03:19:03 [notice] 29#29: gracefully shutting down
+2024/12/28 03:19:03 [notice] 30#30: gracefully shutting down
+2024/12/28 03:19:03 [notice] 31#31: gracefully shutting down
+2024/12/28 03:19:03 [notice] 32#32: gracefully shutting down
+2024/12/28 03:19:03 [notice] 29#29: exiting
+2024/12/28 03:19:03 [notice] 28#28: exiting
+2024/12/28 03:19:03 [notice] 31#31: exiting
+2024/12/28 03:19:03 [notice] 30#30: exiting
+2024/12/28 03:19:03 [notice] 32#32: exiting
+2024/12/28 03:19:03 [notice] 31#31: exit
+2024/12/28 03:19:03 [notice] 29#29: exit
+2024/12/28 03:19:03 [notice] 28#28: exit
+2024/12/28 03:19:03 [notice] 33#33: gracefully shutting down
+2024/12/28 03:19:03 [notice] 34#34: gracefully shutting down
+2024/12/28 03:19:03 [notice] 34#34: exiting
+2024/12/28 03:19:03 [notice] 33#33: exiting
+2024/12/28 03:19:03 [notice] 32#32: exit
+2024/12/28 03:19:03 [notice] 33#33: exit
+2024/12/28 03:19:03 [notice] 35#35: gracefully shutting down
+2024/12/28 03:19:03 [notice] 34#34: exit
+2024/12/28 03:19:03 [notice] 35#35: exiting
+2024/12/28 03:19:03 [notice] 30#30: exit
+2024/12/28 03:19:03 [notice] 35#35: exit
+2024/12/28 03:19:03 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/12/28 03:19:03 [notice] 1#1: worker process 34 exited with code 0
+2024/12/28 03:19:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:19:03 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/12/28 03:19:03 [notice] 1#1: worker process 31 exited with code 0
+2024/12/28 03:19:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:19:03 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/12/28 03:19:03 [notice] 1#1: worker process 28 exited with code 0
+2024/12/28 03:19:03 [notice] 1#1: worker process 35 exited with code 0
+2024/12/28 03:19:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:19:03 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/12/28 03:19:03 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/12/28 03:19:03 [notice] 1#1: worker process 29 exited with code 0
+2024/12/28 03:19:03 [notice] 1#1: worker process 30 exited with code 0
+2024/12/28 03:19:03 [notice] 1#1: worker process 32 exited with code 0
+2024/12/28 03:19:03 [notice] 1#1: worker process 33 exited with code 0
+2024/12/28 03:19:03 [notice] 1#1: exit
+2024/12/28 03:19:08 [notice] 1#1: using the "epoll" event method
+2024/12/28 03:19:08 [notice] 1#1: nginx/1.27.3
+2024/12/28 03:19:08 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/28 03:19:08 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/28 03:19:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/28 03:19:08 [notice] 1#1: start worker processes
+2024/12/28 03:19:08 [notice] 1#1: start worker process 28
+2024/12/28 03:19:08 [notice] 1#1: start worker process 29
+2024/12/28 03:19:08 [notice] 1#1: start worker process 30
+2024/12/28 03:19:08 [notice] 1#1: start worker process 31
+2024/12/28 03:19:08 [notice] 1#1: start worker process 32
+2024/12/28 03:19:08 [notice] 1#1: start worker process 33
+2024/12/28 03:19:08 [notice] 1#1: start worker process 34
+2024/12/28 03:19:08 [notice] 1#1: start worker process 35
+2024/12/28 03:19:09 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:19:09 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:21:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/12/28 03:21:37 [notice] 29#29: gracefully shutting down
+2024/12/28 03:21:37 [notice] 28#28: gracefully shutting down
+2024/12/28 03:21:37 [notice] 30#30: gracefully shutting down
+2024/12/28 03:21:37 [notice] 29#29: exiting
+2024/12/28 03:21:37 [notice] 28#28: exiting
+2024/12/28 03:21:37 [notice] 34#34: gracefully shutting down
+2024/12/28 03:21:37 [notice] 33#33: gracefully shutting down
+2024/12/28 03:21:37 [notice] 30#30: exiting
+2024/12/28 03:21:37 [notice] 35#35: gracefully shutting down
+2024/12/28 03:21:37 [notice] 34#34: exiting
+2024/12/28 03:21:37 [notice] 33#33: exiting
+2024/12/28 03:21:37 [notice] 35#35: exiting
+2024/12/28 03:21:37 [notice] 29#29: exit
+2024/12/28 03:21:37 [notice] 30#30: exit
+2024/12/28 03:21:37 [notice] 28#28: exit
+2024/12/28 03:21:37 [notice] 31#31: gracefully shutting down
+2024/12/28 03:21:37 [notice] 33#33: exit
+2024/12/28 03:21:37 [notice] 31#31: exiting
+2024/12/28 03:21:37 [notice] 35#35: exit
+2024/12/28 03:21:37 [notice] 34#34: exit
+2024/12/28 03:21:37 [notice] 32#32: gracefully shutting down
+2024/12/28 03:21:37 [notice] 32#32: exiting
+2024/12/28 03:21:37 [notice] 32#32: exit
+2024/12/28 03:21:37 [notice] 31#31: exit
+2024/12/28 03:21:37 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/12/28 03:21:37 [notice] 1#1: worker process 34 exited with code 0
+2024/12/28 03:21:37 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:21:37 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/12/28 03:21:37 [notice] 1#1: worker process 28 exited with code 0
+2024/12/28 03:21:37 [notice] 1#1: worker process 29 exited with code 0
+2024/12/28 03:21:37 [notice] 1#1: worker process 30 exited with code 0
+2024/12/28 03:21:37 [notice] 1#1: worker process 31 exited with code 0
+2024/12/28 03:21:37 [notice] 1#1: worker process 35 exited with code 0
+2024/12/28 03:21:37 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:21:37 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/12/28 03:21:37 [notice] 1#1: worker process 33 exited with code 0
+2024/12/28 03:21:37 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:21:37 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/12/28 03:21:37 [notice] 1#1: worker process 32 exited with code 0
+2024/12/28 03:21:37 [notice] 1#1: exit
+2024/12/28 03:22:57 [notice] 1#1: using the "epoll" event method
+2024/12/28 03:22:57 [notice] 1#1: nginx/1.27.3
+2024/12/28 03:22:57 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/28 03:22:57 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/28 03:22:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/28 03:22:57 [notice] 1#1: start worker processes
+2024/12/28 03:22:57 [notice] 1#1: start worker process 28
+2024/12/28 03:22:57 [notice] 1#1: start worker process 29
+2024/12/28 03:22:57 [notice] 1#1: start worker process 30
+2024/12/28 03:22:57 [notice] 1#1: start worker process 31
+2024/12/28 03:22:57 [notice] 1#1: start worker process 32
+2024/12/28 03:22:57 [notice] 1#1: start worker process 33
+2024/12/28 03:22:57 [notice] 1#1: start worker process 34
+2024/12/28 03:22:57 [notice] 1#1: start worker process 35
+2024/12/28 03:25:33 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:25:37 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:25:37 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:25:43 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:29:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/12/28 03:29:41 [notice] 28#28: gracefully shutting down
+2024/12/28 03:29:41 [notice] 29#29: gracefully shutting down
+2024/12/28 03:29:41 [notice] 31#31: gracefully shutting down
+2024/12/28 03:29:41 [notice] 30#30: gracefully shutting down
+2024/12/28 03:29:41 [notice] 28#28: exiting
+2024/12/28 03:29:41 [notice] 33#33: gracefully shutting down
+2024/12/28 03:29:41 [notice] 29#29: exiting
+2024/12/28 03:29:41 [notice] 32#32: gracefully shutting down
+2024/12/28 03:29:41 [notice] 30#30: exiting
+2024/12/28 03:29:41 [notice] 33#33: exiting
+2024/12/28 03:29:41 [notice] 31#31: exiting
+2024/12/28 03:29:41 [notice] 32#32: exiting
+2024/12/28 03:29:41 [notice] 28#28: exit
+2024/12/28 03:29:41 [notice] 29#29: exit
+2024/12/28 03:29:41 [notice] 30#30: exit
+2024/12/28 03:29:41 [notice] 35#35: gracefully shutting down
+2024/12/28 03:29:41 [notice] 32#32: exit
+2024/12/28 03:29:41 [notice] 31#31: exit
+2024/12/28 03:29:41 [notice] 35#35: exiting
+2024/12/28 03:29:41 [notice] 33#33: exit
+2024/12/28 03:29:41 [notice] 34#34: gracefully shutting down
+2024/12/28 03:29:41 [notice] 34#34: exiting
+2024/12/28 03:29:41 [notice] 35#35: exit
+2024/12/28 03:29:41 [notice] 34#34: exit
+2024/12/28 03:29:41 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/12/28 03:29:41 [notice] 1#1: worker process 31 exited with code 0
+2024/12/28 03:29:41 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:29:41 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/12/28 03:29:41 [notice] 1#1: worker process 28 exited with code 0
+2024/12/28 03:29:41 [notice] 1#1: worker process 29 exited with code 0
+2024/12/28 03:29:41 [notice] 1#1: worker process 30 exited with code 0
+2024/12/28 03:29:41 [notice] 1#1: worker process 33 exited with code 0
+2024/12/28 03:29:41 [notice] 1#1: worker process 34 exited with code 0
+2024/12/28 03:29:41 [notice] 1#1: worker process 35 exited with code 0
+2024/12/28 03:29:41 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:29:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/12/28 03:29:41 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/12/28 03:29:41 [notice] 1#1: worker process 32 exited with code 0
+2024/12/28 03:29:41 [notice] 1#1: exit
+2024/12/28 03:29:48 [notice] 1#1: using the "epoll" event method
+2024/12/28 03:29:48 [notice] 1#1: nginx/1.27.3
+2024/12/28 03:29:48 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/28 03:29:48 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/28 03:29:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/28 03:29:48 [notice] 1#1: start worker processes
+2024/12/28 03:29:48 [notice] 1#1: start worker process 28
+2024/12/28 03:29:48 [notice] 1#1: start worker process 29
+2024/12/28 03:29:48 [notice] 1#1: start worker process 30
+2024/12/28 03:29:48 [notice] 1#1: start worker process 31
+2024/12/28 03:29:48 [notice] 1#1: start worker process 32
+2024/12/28 03:29:48 [notice] 1#1: start worker process 33
+2024/12/28 03:29:48 [notice] 1#1: start worker process 34
+2024/12/28 03:29:48 [notice] 1#1: start worker process 35
+2024/12/28 03:29:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/12/28 03:29:49 [notice] 31#31: gracefully shutting down
+2024/12/28 03:29:49 [notice] 30#30: gracefully shutting down
+2024/12/28 03:29:49 [notice] 31#31: exiting
+2024/12/28 03:29:49 [notice] 30#30: exiting
+2024/12/28 03:29:49 [notice] 28#28: gracefully shutting down
+2024/12/28 03:29:49 [notice] 35#35: gracefully shutting down
+2024/12/28 03:29:49 [notice] 28#28: exiting
+2024/12/28 03:29:49 [notice] 35#35: exiting
+2024/12/28 03:29:49 [notice] 31#31: exit
+2024/12/28 03:29:49 [notice] 35#35: exit
+2024/12/28 03:29:49 [notice] 28#28: exit
+2024/12/28 03:29:49 [notice] 30#30: exit
+2024/12/28 03:29:49 [notice] 29#29: gracefully shutting down
+2024/12/28 03:29:49 [notice] 29#29: exiting
+2024/12/28 03:29:49 [notice] 34#34: gracefully shutting down
+2024/12/28 03:29:49 [notice] 34#34: exiting
+2024/12/28 03:29:49 [notice] 32#32: gracefully shutting down
+2024/12/28 03:29:49 [notice] 32#32: exiting
+2024/12/28 03:29:49 [notice] 29#29: exit
+2024/12/28 03:29:49 [notice] 34#34: exit
+2024/12/28 03:29:49 [notice] 32#32: exit
+2024/12/28 03:29:49 [notice] 33#33: gracefully shutting down
+2024/12/28 03:29:49 [notice] 33#33: exiting
+2024/12/28 03:29:49 [notice] 33#33: exit
+2024/12/28 03:29:49 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/12/28 03:29:49 [notice] 1#1: worker process 28 exited with code 0
+2024/12/28 03:29:49 [notice] 1#1: worker process 31 exited with code 0
+2024/12/28 03:29:49 [notice] 1#1: worker process 35 exited with code 0
+2024/12/28 03:29:49 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:29:49 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/12/28 03:29:49 [notice] 1#1: worker process 29 exited with code 0
+2024/12/28 03:29:49 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:29:49 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/12/28 03:29:49 [notice] 1#1: worker process 33 exited with code 0
+2024/12/28 03:29:49 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:29:49 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/12/28 03:29:49 [notice] 1#1: worker process 34 exited with code 0
+2024/12/28 03:29:49 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:29:49 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/12/28 03:29:49 [notice] 1#1: worker process 32 exited with code 0
+2024/12/28 03:29:49 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:29:49 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/12/28 03:29:49 [notice] 1#1: worker process 30 exited with code 0
+2024/12/28 03:29:49 [notice] 1#1: exit
+2024/12/28 03:29:54 [notice] 1#1: using the "epoll" event method
+2024/12/28 03:29:54 [notice] 1#1: nginx/1.27.3
+2024/12/28 03:29:54 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/28 03:29:54 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/28 03:29:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/28 03:29:54 [notice] 1#1: start worker processes
+2024/12/28 03:29:54 [notice] 1#1: start worker process 28
+2024/12/28 03:29:54 [notice] 1#1: start worker process 29
+2024/12/28 03:29:54 [notice] 1#1: start worker process 30
+2024/12/28 03:29:54 [notice] 1#1: start worker process 31
+2024/12/28 03:29:54 [notice] 1#1: start worker process 32
+2024/12/28 03:29:54 [notice] 1#1: start worker process 33
+2024/12/28 03:29:54 [notice] 1#1: start worker process 34
+2024/12/28 03:29:54 [notice] 1#1: start worker process 35
+2024/12/28 03:30:00 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:30:00 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 03:30:09 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:33:52 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 03:40:03 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:54:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/12/28 03:54:34 [notice] 28#28: gracefully shutting down
+2024/12/28 03:54:34 [notice] 31#31: gracefully shutting down
+2024/12/28 03:54:34 [notice] 29#29: gracefully shutting down
+2024/12/28 03:54:34 [notice] 34#34: gracefully shutting down
+2024/12/28 03:54:34 [notice] 30#30: gracefully shutting down
+2024/12/28 03:54:34 [notice] 31#31: exiting
+2024/12/28 03:54:34 [notice] 29#29: exiting
+2024/12/28 03:54:34 [notice] 28#28: exiting
+2024/12/28 03:54:34 [notice] 34#34: exiting
+2024/12/28 03:54:34 [notice] 30#30: exiting
+2024/12/28 03:54:34 [notice] 32#32: gracefully shutting down
+2024/12/28 03:54:34 [notice] 32#32: exiting
+2024/12/28 03:54:34 [notice] 28#28: exit
+2024/12/28 03:54:34 [notice] 29#29: exit
+2024/12/28 03:54:34 [notice] 31#31: exit
+2024/12/28 03:54:34 [notice] 35#35: gracefully shutting down
+2024/12/28 03:54:34 [notice] 30#30: exit
+2024/12/28 03:54:34 [notice] 34#34: exit
+2024/12/28 03:54:34 [notice] 35#35: exiting
+2024/12/28 03:54:34 [notice] 32#32: exit
+2024/12/28 03:54:34 [notice] 35#35: exit
+2024/12/28 03:54:34 [notice] 33#33: gracefully shutting down
+2024/12/28 03:54:34 [notice] 33#33: exiting
+2024/12/28 03:54:34 [notice] 33#33: exit
+2024/12/28 03:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/12/28 03:54:34 [notice] 1#1: worker process 28 exited with code 0
+2024/12/28 03:54:34 [notice] 1#1: worker process 29 exited with code 0
+2024/12/28 03:54:34 [notice] 1#1: worker process 31 exited with code 0
+2024/12/28 03:54:34 [notice] 1#1: worker process 32 exited with code 0
+2024/12/28 03:54:34 [notice] 1#1: worker process 34 exited with code 0
+2024/12/28 03:54:34 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/12/28 03:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/12/28 03:54:34 [notice] 1#1: worker process 35 exited with code 0
+2024/12/28 03:54:34 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/12/28 03:54:34 [notice] 1#1: worker process 33 exited with code 0
+2024/12/28 03:54:34 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 03:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/12/28 03:54:34 [notice] 1#1: worker process 30 exited with code 0
+2024/12/28 03:54:34 [notice] 1#1: exit
+2024/12/28 03:56:55 [notice] 1#1: using the "epoll" event method
+2024/12/28 03:56:55 [notice] 1#1: nginx/1.27.3
+2024/12/28 03:56:55 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/28 03:56:55 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/28 03:56:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/28 03:56:55 [notice] 1#1: start worker processes
+2024/12/28 03:56:55 [notice] 1#1: start worker process 28
+2024/12/28 03:56:55 [notice] 1#1: start worker process 29
+2024/12/28 03:56:55 [notice] 1#1: start worker process 30
+2024/12/28 03:56:55 [notice] 1#1: start worker process 31
+2024/12/28 03:56:55 [notice] 1#1: start worker process 32
+2024/12/28 03:56:55 [notice] 1#1: start worker process 33
+2024/12/28 03:56:55 [notice] 1#1: start worker process 34
+2024/12/28 03:56:55 [notice] 1#1: start worker process 35
+2024/12/28 03:57:12 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 03:57:12 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 03:57:12 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 03:57:12 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 04:02:46 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 04:11:13 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 04:11:14 [error] 29#29: *373 open() "/var/www/html/default/autodiscover/autodiscover.json" failed (2: No such file or directory), client: 172.206.142.52, server: _, request: "GET /autodiscover/autodiscover.json?@zdi/Powershell HTTP/1.1", host: "140.110.139.10"
+2024/12/28 05:48:23 [notice] 1#1: using the "epoll" event method
+2024/12/28 05:48:23 [notice] 1#1: nginx/1.27.3
+2024/12/28 05:48:23 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/28 05:48:23 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/28 05:48:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/28 05:48:23 [notice] 1#1: start worker processes
+2024/12/28 05:48:23 [notice] 1#1: start worker process 28
+2024/12/28 05:48:23 [notice] 1#1: start worker process 29
+2024/12/28 05:48:23 [notice] 1#1: start worker process 30
+2024/12/28 05:48:23 [notice] 1#1: start worker process 31
+2024/12/28 05:48:23 [notice] 1#1: start worker process 32
+2024/12/28 05:48:23 [notice] 1#1: start worker process 33
+2024/12/28 05:48:23 [notice] 1#1: start worker process 34
+2024/12/28 05:48:23 [notice] 1#1: start worker process 35
+2024/12/28 05:48:26 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 05:48:26 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 05:48:33 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 05:49:51 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 05:53:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/12/28 05:53:16 [notice] 28#28: gracefully shutting down
+2024/12/28 05:53:16 [notice] 33#33: gracefully shutting down
+2024/12/28 05:53:16 [notice] 29#29: gracefully shutting down
+2024/12/28 05:53:16 [notice] 33#33: exiting
+2024/12/28 05:53:16 [notice] 29#29: exiting
+2024/12/28 05:53:16 [notice] 30#30: gracefully shutting down
+2024/12/28 05:53:16 [notice] 30#30: exiting
+2024/12/28 05:53:16 [notice] 31#31: gracefully shutting down
+2024/12/28 05:53:16 [notice] 34#34: gracefully shutting down
+2024/12/28 05:53:16 [notice] 32#32: gracefully shutting down
+2024/12/28 05:53:16 [notice] 29#29: exit
+2024/12/28 05:53:16 [notice] 31#31: exiting
+2024/12/28 05:53:16 [notice] 35#35: gracefully shutting down
+2024/12/28 05:53:16 [notice] 34#34: exiting
+2024/12/28 05:53:16 [notice] 32#32: exiting
+2024/12/28 05:53:16 [notice] 33#33: exit
+2024/12/28 05:53:16 [notice] 30#30: exit
+2024/12/28 05:53:16 [notice] 35#35: exiting
+2024/12/28 05:53:16 [notice] 34#34: exit
+2024/12/28 05:53:16 [notice] 32#32: exit
+2024/12/28 05:53:16 [notice] 31#31: exit
+2024/12/28 05:53:16 [notice] 35#35: exit
+2024/12/28 05:53:16 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/12/28 05:53:16 [notice] 1#1: worker process 30 exited with code 0
+2024/12/28 05:53:16 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 05:53:16 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/12/28 05:53:16 [notice] 1#1: worker process 31 exited with code 0
+2024/12/28 05:53:16 [notice] 1#1: worker process 34 exited with code 0
+2024/12/28 05:53:16 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 05:53:16 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/12/28 05:53:16 [notice] 1#1: worker process 32 exited with code 0
+2024/12/28 05:53:16 [notice] 1#1: worker process 33 exited with code 0
+2024/12/28 05:53:16 [notice] 1#1: worker process 35 exited with code 0
+2024/12/28 05:53:16 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 05:53:16 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/12/28 05:53:16 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/12/28 05:53:16 [notice] 1#1: worker process 29 exited with code 0
+2024/12/28 05:53:16 [notice] 1#1: signal 29 (SIGIO) received
+2024/12/28 05:53:31 [notice] 1#1: using the "epoll" event method
+2024/12/28 05:53:31 [notice] 1#1: nginx/1.27.3
+2024/12/28 05:53:31 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/12/28 05:53:31 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2024/12/28 05:53:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/12/28 05:53:31 [notice] 1#1: start worker processes
+2024/12/28 05:53:31 [notice] 1#1: start worker process 28
+2024/12/28 05:53:31 [notice] 1#1: start worker process 29
+2024/12/28 05:53:31 [notice] 1#1: start worker process 30
+2024/12/28 05:53:31 [notice] 1#1: start worker process 31
+2024/12/28 05:53:31 [notice] 1#1: start worker process 32
+2024/12/28 05:53:31 [notice] 1#1: start worker process 33
+2024/12/28 05:53:31 [notice] 1#1: start worker process 34
+2024/12/28 05:53:31 [notice] 1#1: start worker process 35
+2024/12/28 05:53:31 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 05:53:47 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 06:13:52 [error] 28#28: *314 open() "/var/www/html/default/_ignition/execute-solution" failed (2: No such file or directory), client: 159.65.9.232, server: _, request: "POST /_ignition/execute-solution HTTP/1.1", host: "140.110.139.10"
+2024/12/28 06:22:49 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 06:31:43 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 06:37:56 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 06:39:55 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 06:44:49 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 07:35:01 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 07:45:06 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 07:50:14 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 07:51:43 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 08:17:41 [error] 33#33: *1336 open() "/var/www/html/default/hello.world" failed (2: No such file or directory), client: 8.134.107.36, server: _, request: "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1", host: "140.110.139.10:443"
+2024/12/28 08:18:50 [error] 33#33: *1336 open() "/var/www/html/default/containers/json" failed (2: No such file or directory), client: 8.134.107.36, server: _, request: "GET /containers/json HTTP/1.1", host: "140.110.139.10:443"
+2024/12/28 08:22:41 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 09:23:58 [error] 34#34: twcasslocsp.twca.com.tw could not be resolved (110: Operation timed out) while requesting certificate status, responder: twcasslocsp.twca.com.tw, certificate: "/ssl/server.cer"
+2024/12/28 09:24:03 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 09:44:07 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 09:44:07 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 09:57:40 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 09:59:02 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 09:59:02 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 10:48:51 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 11:26:43 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 11:50:45 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 11:58:03 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 11:58:12 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 12:16:00 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 12:16:30 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 12:16:36 [error] 30#30: *1565 open() "/var/www/html/default/favicon.ico" failed (2: No such file or directory), client: 167.94.145.105, server: _, request: "GET /favicon.ico HTTP/1.1", host: "140.110.139.10"
+2024/12/28 13:54:09 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 14:45:06 [error] 30#30: twcasslocsp.twca.com.tw could not be resolved (110: Operation timed out) while requesting certificate status, responder: twcasslocsp.twca.com.tw, certificate: "/ssl/server.cer"
+2024/12/28 15:22:17 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 15:43:20 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 15:43:21 [error] 30#30: *1643 open() "/var/www/html/default/cgi-bin/luci/;stok=/locale" failed (2: No such file or directory), client: 95.214.53.205, server: _, request: "GET /cgi-bin/luci/;stok=/locale HTTP/1.1", host: "140.110.139.10:443"
+2024/12/28 16:09:42 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 16:09:51 [error] 30#30: *1651 open() "/var/www/html/default/favicon.ico" failed (2: No such file or directory), client: 115.231.78.4, server: _, request: "GET /favicon.ico HTTP/1.1", host: "140.110.139.10:443"
+2024/12/28 16:09:51 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 16:09:53 [error] 31#31: *1656 open() "/var/www/html/default/robots.txt" failed (2: No such file or directory), client: 115.231.78.4, server: _, request: "GET /robots.txt HTTP/1.1", host: "140.110.139.10:443"
+2024/12/28 16:46:33 [error] 31#31: twcasslocsp.twca.com.tw could not be resolved (110: Operation timed out) while requesting certificate status, responder: twcasslocsp.twca.com.tw, certificate: "/ssl/server.cer"
+2024/12/28 21:15:27 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 21:15:27 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 21:50:10 [error] 33#33: *1695 open() "/var/www/html/default/remote/login" failed (2: No such file or directory), client: 185.190.24.103, server: _, request: "GET /remote/login HTTP/1.1", host: "140.110.139.10"
+2024/12/28 21:50:10 [error] 33#33: *1696 open() "/var/www/html/default/login" failed (2: No such file or directory), client: 185.190.24.103, server: _, request: "GET /login HTTP/1.1", host: "140.110.139.10"
+2024/12/28 23:36:26 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/28 23:36:26 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/28 23:39:01 [error] 34#34: *1726 open() "/var/www/html/default/Public/home/js/check.js" failed (2: No such file or directory), client: 47.88.94.159, server: _, request: "GET /Public/home/js/check.js HTTP/1.1", host: "140.110.139.10"
+2024/12/28 23:39:02 [error] 34#34: *1727 open() "/var/www/html/default/static/admin/javascript/hetong.js" failed (2: No such file or directory), client: 47.251.11.3, server: _, request: "GET /static/admin/javascript/hetong.js HTTP/1.1", host: "140.110.139.10"
+2024/12/29 00:24:14 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 00:36:56 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 00:39:06 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 01:21:39 [error] 33#33: *1840 open() "/var/www/html/default/nmaplowercheck1735435299" failed (2: No such file or directory), client: 118.107.8.131, server: _, request: "GET /nmaplowercheck1735435299 HTTP/1.1", host: "140.110.139.10"
+2024/12/29 01:21:39 [error] 33#33: *1841 open() "/var/www/html/default/sdk" failed (2: No such file or directory), client: 118.107.8.131, server: _, request: "POST /sdk HTTP/1.1", host: "140.110.139.10"
+2024/12/29 01:21:40 [error] 33#33: *1842 open() "/var/www/html/default/evox/about" failed (2: No such file or directory), client: 118.107.8.131, server: _, request: "GET /evox/about HTTP/1.1", host: "140.110.139.10"
+2024/12/29 01:21:41 [error] 33#33: *1843 open() "/var/www/html/default/HNAP1" failed (2: No such file or directory), client: 118.107.8.131, server: _, request: "GET /HNAP1 HTTP/1.1", host: "140.110.139.10"
+2024/12/29 01:52:57 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 02:03:35 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 02:07:34 [error] 33#33: *1851 "/var/www/html/default/webui/index.php" is not found (2: No such file or directory), client: 184.105.139.67, server: _, request: "GET /webui/ HTTP/1.1", host: "140.110.139.10"
+2024/12/29 02:10:29 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 02:10:30 [error] 34#34: *1862 open() "/var/www/html/default/favicon.ico" failed (2: No such file or directory), client: 184.105.139.67, server: _, request: "GET /favicon.ico HTTP/1.1", host: "140.110.139.10"
+2024/12/29 02:14:24 [error] 34#34: *1868 open() "/var/www/html/default/vpn/index.html" failed (2: No such file or directory), client: 184.105.139.67, server: _, request: "GET /vpn/index.html HTTP/1.1", host: "140.110.139.10"
+2024/12/29 02:15:22 [error] 34#34: *1869 "/var/www/html/default/geoserver/web/index.php" is not found (2: No such file or directory), client: 184.105.139.67, server: _, request: "GET /geoserver/web/ HTTP/1.1", host: "140.110.139.10"
+2024/12/29 02:17:08 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 02:17:08 [error] 34#34: *1870 open() "/var/www/html/default/.git/config" failed (2: No such file or directory), client: 184.105.139.67, server: _, request: "GET /.git/config HTTP/1.1", host: "140.110.139.10"
+2024/12/29 02:17:12 [error] 34#34: *1872 open() "/var/www/html/default/php-cgi/php-cgi.exe" failed (2: No such file or directory), client: 180.188.198.159, server: _, request: "POST /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3D0+%ADd+allow_url_include%3Don+%ADd+auto_prepend_file%3Dphp%3A//input HTTP/1.1", host: "140.110.139.10"
+2024/12/29 02:39:25 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 02:48:05 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 02:56:49 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 03:15:20 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 03:15:47 [error] 35#35: *1894 open() "/var/www/html/default/favicon.ico" failed (2: No such file or directory), client: 167.94.146.54, server: _, request: "GET /favicon.ico HTTP/1.1", host: "140.110.139.10"
+2024/12/29 03:26:19 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 03:26:19 [error] 35#35: *1898 open() "/var/www/html/default/owa/auth/logon.aspx" failed (2: No such file or directory), client: 172.212.73.231, server: _, request: "GET /owa/auth/logon.aspx HTTP/1.1", host: "140.110.139.10"
+2024/12/29 03:40:42 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 04:29:12 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 05:09:54 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 05:10:19 [error] 28#28: *1914 open() "/var/www/html/default/favicon.ico" failed (2: No such file or directory), client: 115.231.78.4, server: _, request: "GET /favicon.ico HTTP/1.1", host: "140.110.139.10:443"
+2024/12/29 05:10:22 [error] 28#28: *1917 open() "/var/www/html/default/robots.txt" failed (2: No such file or directory), client: 115.231.78.4, server: _, request: "GET /robots.txt HTTP/1.1", host: "140.110.139.10:443"
+2024/12/29 05:32:27 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 05:35:26 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 05:45:52 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 05:52:08 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 05:59:17 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 06:07:13 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 06:12:50 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 06:19:14 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 06:26:36 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 06:47:36 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 06:48:34 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 06:54:56 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 07:03:13 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 07:09:03 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 07:16:08 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 07:17:28 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 07:22:45 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 07:28:03 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 07:50:26 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 08:22:16 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 08:23:08 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 09:03:37 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 09:19:34 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 09:20:13 [error] 29#29: *4661 open() "/var/www/html/default/favicon.ico" failed (2: No such file or directory), client: 167.94.138.203, server: _, request: "GET /favicon.ico HTTP/1.1", host: "140.110.139.10"
+2024/12/29 09:20:22 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 10:06:03 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 10:11:07 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 10:16:23 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 10:24:00 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 10:35:51 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 11:15:28 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 11:20:07 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 11:25:35 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 11:31:35 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 11:36:49 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 11:43:34 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 11:43:35 [error] 33#33: *5809 open() "/var/www/html/default/version" failed (2: No such file or directory), client: 172.168.40.233, server: _, request: "GET /version HTTP/1.1", host: "140.110.139.10"
+2024/12/29 11:44:02 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 11:44:02 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 12:08:04 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 12:10:11 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 12:14:00 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 12:15:33 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/29 12:20:33 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 12:27:37 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 12:32:52 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 12:32:59 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 12:35:57 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 13:53:55 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/29 14:06:13 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2024/12/30 06:31:25 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/30 07:28:19 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2024/12/31 04:17:42 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/03 09:18:36 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/03 09:18:38 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 15:09:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/01/07 15:09:55 [notice] 29#29: gracefully shutting down
+2025/01/07 15:09:55 [notice] 30#30: gracefully shutting down
+2025/01/07 15:09:55 [notice] 28#28: gracefully shutting down
+2025/01/07 15:09:55 [notice] 31#31: gracefully shutting down
+2025/01/07 15:09:55 [notice] 32#32: gracefully shutting down
+2025/01/07 15:09:55 [notice] 35#35: gracefully shutting down
+2025/01/07 15:09:55 [notice] 29#29: exiting
+2025/01/07 15:09:55 [notice] 31#31: exiting
+2025/01/07 15:09:55 [notice] 30#30: exiting
+2025/01/07 15:09:55 [notice] 28#28: exiting
+2025/01/07 15:09:55 [notice] 32#32: exiting
+2025/01/07 15:09:55 [notice] 35#35: exiting
+2025/01/07 15:09:55 [notice] 34#34: gracefully shutting down
+2025/01/07 15:09:55 [notice] 34#34: exiting
+2025/01/07 15:09:55 [notice] 29#29: exit
+2025/01/07 15:09:55 [notice] 31#31: exit
+2025/01/07 15:09:55 [notice] 35#35: exit
+2025/01/07 15:09:55 [notice] 34#34: exit
+2025/01/07 15:09:55 [notice] 32#32: exit
+2025/01/07 15:09:55 [notice] 30#30: exit
+2025/01/07 15:09:55 [notice] 28#28: exit
+2025/01/07 15:09:55 [notice] 33#33: gracefully shutting down
+2025/01/07 15:09:55 [notice] 33#33: exiting
+2025/01/07 15:09:55 [notice] 33#33: exit
+2025/01/07 15:09:55 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2025/01/07 15:09:55 [notice] 1#1: worker process 31 exited with code 0
+2025/01/07 15:09:55 [notice] 1#1: worker process 34 exited with code 0
+2025/01/07 15:09:55 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:09:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2025/01/07 15:09:55 [notice] 1#1: worker process 32 exited with code 0
+2025/01/07 15:09:55 [notice] 1#1: worker process 30 exited with code 0
+2025/01/07 15:09:55 [notice] 1#1: worker process 35 exited with code 0
+2025/01/07 15:09:55 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:09:55 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2025/01/07 15:09:55 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/01/07 15:09:55 [notice] 1#1: worker process 28 exited with code 0
+2025/01/07 15:09:55 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:09:55 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/01/07 15:09:55 [notice] 1#1: worker process 29 exited with code 0
+2025/01/07 15:09:55 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:09:55 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2025/01/07 15:09:55 [notice] 1#1: worker process 33 exited with code 0
+2025/01/07 15:09:55 [notice] 1#1: exit
+2025/01/07 15:18:50 [notice] 1#1: using the "epoll" event method
+2025/01/07 15:18:50 [notice] 1#1: nginx/1.27.3
+2025/01/07 15:18:50 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/01/07 15:18:50 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2025/01/07 15:18:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/01/07 15:18:50 [notice] 1#1: start worker processes
+2025/01/07 15:18:50 [notice] 1#1: start worker process 28
+2025/01/07 15:18:50 [notice] 1#1: start worker process 29
+2025/01/07 15:18:50 [notice] 1#1: start worker process 30
+2025/01/07 15:18:50 [notice] 1#1: start worker process 31
+2025/01/07 15:18:50 [notice] 1#1: start worker process 32
+2025/01/07 15:18:50 [notice] 1#1: start worker process 33
+2025/01/07 15:18:50 [notice] 1#1: start worker process 34
+2025/01/07 15:18:50 [notice] 1#1: start worker process 35
+2025/01/07 15:20:12 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 15:20:13 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 15:20:13 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 15:20:24 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 15:20:24 [error] 33#33: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 15:20:25 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 15:22:11 [error] 30#30: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 15:23:24 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 15:25:26 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 15:27:14 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 15:29:55 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 15:29:57 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 15:30:28 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 15:32:20 [error] 34#34: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 15:36:12 [error] 35#35: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 15:41:15 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 15:41:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/01/07 15:41:19 [notice] 29#29: gracefully shutting down
+2025/01/07 15:41:19 [notice] 32#32: gracefully shutting down
+2025/01/07 15:41:19 [notice] 28#28: gracefully shutting down
+2025/01/07 15:41:19 [notice] 30#30: gracefully shutting down
+2025/01/07 15:41:19 [notice] 33#33: gracefully shutting down
+2025/01/07 15:41:19 [notice] 31#31: gracefully shutting down
+2025/01/07 15:41:19 [notice] 35#35: gracefully shutting down
+2025/01/07 15:41:19 [notice] 32#32: exiting
+2025/01/07 15:41:19 [notice] 29#29: exiting
+2025/01/07 15:41:19 [notice] 28#28: exiting
+2025/01/07 15:41:19 [notice] 33#33: exiting
+2025/01/07 15:41:19 [notice] 35#35: exiting
+2025/01/07 15:41:19 [notice] 31#31: exiting
+2025/01/07 15:41:19 [notice] 30#30: exiting
+2025/01/07 15:41:19 [notice] 33#33: exit
+2025/01/07 15:41:19 [notice] 35#35: exit
+2025/01/07 15:41:19 [notice] 32#32: exit
+2025/01/07 15:41:19 [notice] 29#29: exit
+2025/01/07 15:41:19 [notice] 28#28: exit
+2025/01/07 15:41:19 [notice] 31#31: exit
+2025/01/07 15:41:19 [notice] 30#30: exit
+2025/01/07 15:41:19 [notice] 34#34: gracefully shutting down
+2025/01/07 15:41:19 [notice] 34#34: exiting
+2025/01/07 15:41:19 [notice] 34#34: exit
+2025/01/07 15:41:19 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2025/01/07 15:41:19 [notice] 1#1: worker process 35 exited with code 0
+2025/01/07 15:41:19 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:41:19 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2025/01/07 15:41:19 [notice] 1#1: worker process 30 exited with code 0
+2025/01/07 15:41:19 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:41:19 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/01/07 15:41:19 [notice] 1#1: worker process 28 exited with code 0
+2025/01/07 15:41:19 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:41:19 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/01/07 15:41:19 [notice] 1#1: worker process 29 exited with code 0
+2025/01/07 15:41:19 [notice] 1#1: worker process 32 exited with code 0
+2025/01/07 15:41:19 [notice] 1#1: worker process 34 exited with code 0
+2025/01/07 15:41:19 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:41:19 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2025/01/07 15:41:19 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2025/01/07 15:41:19 [notice] 1#1: worker process 33 exited with code 0
+2025/01/07 15:41:19 [notice] 1#1: worker process 31 exited with code 0
+2025/01/07 15:41:19 [notice] 1#1: exit
+2025/01/07 15:42:43 [notice] 1#1: using the "epoll" event method
+2025/01/07 15:42:43 [notice] 1#1: nginx/1.27.3
+2025/01/07 15:42:43 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/01/07 15:42:43 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2025/01/07 15:42:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/01/07 15:42:43 [notice] 1#1: start worker processes
+2025/01/07 15:42:43 [notice] 1#1: start worker process 28
+2025/01/07 15:42:43 [notice] 1#1: start worker process 29
+2025/01/07 15:42:43 [notice] 1#1: start worker process 30
+2025/01/07 15:42:43 [notice] 1#1: start worker process 31
+2025/01/07 15:42:43 [notice] 1#1: start worker process 32
+2025/01/07 15:42:43 [notice] 1#1: start worker process 33
+2025/01/07 15:42:43 [notice] 1#1: start worker process 34
+2025/01/07 15:42:43 [notice] 1#1: start worker process 35
+2025/01/07 15:42:43 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 15:42:44 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 15:43:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/01/07 15:43:38 [notice] 28#28: gracefully shutting down
+2025/01/07 15:43:38 [notice] 29#29: gracefully shutting down
+2025/01/07 15:43:38 [notice] 28#28: exiting
+2025/01/07 15:43:38 [notice] 29#29: exiting
+2025/01/07 15:43:38 [notice] 32#32: gracefully shutting down
+2025/01/07 15:43:38 [notice] 30#30: gracefully shutting down
+2025/01/07 15:43:38 [notice] 32#32: exiting
+2025/01/07 15:43:38 [notice] 30#30: exiting
+2025/01/07 15:43:38 [notice] 28#28: exit
+2025/01/07 15:43:38 [notice] 29#29: exit
+2025/01/07 15:43:38 [notice] 33#33: gracefully shutting down
+2025/01/07 15:43:38 [notice] 31#31: gracefully shutting down
+2025/01/07 15:43:38 [notice] 34#34: gracefully shutting down
+2025/01/07 15:43:38 [notice] 35#35: gracefully shutting down
+2025/01/07 15:43:38 [notice] 31#31: exiting
+2025/01/07 15:43:38 [notice] 35#35: exiting
+2025/01/07 15:43:38 [notice] 33#33: exiting
+2025/01/07 15:43:38 [notice] 34#34: exiting
+2025/01/07 15:43:38 [notice] 32#32: exit
+2025/01/07 15:43:38 [notice] 31#31: exit
+2025/01/07 15:43:38 [notice] 33#33: exit
+2025/01/07 15:43:38 [notice] 35#35: exit
+2025/01/07 15:43:38 [notice] 34#34: exit
+2025/01/07 15:43:38 [notice] 30#30: exit
+2025/01/07 15:43:38 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2025/01/07 15:43:38 [notice] 1#1: worker process 34 exited with code 0
+2025/01/07 15:43:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:43:38 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2025/01/07 15:43:38 [notice] 1#1: worker process 30 exited with code 0
+2025/01/07 15:43:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:43:38 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/01/07 15:43:38 [notice] 1#1: worker process 28 exited with code 0
+2025/01/07 15:43:38 [notice] 1#1: worker process 31 exited with code 0
+2025/01/07 15:43:38 [notice] 1#1: worker process 35 exited with code 0
+2025/01/07 15:43:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:43:38 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2025/01/07 15:43:38 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2025/01/07 15:43:38 [notice] 1#1: worker process 33 exited with code 0
+2025/01/07 15:43:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:43:38 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2025/01/07 15:43:38 [notice] 1#1: worker process 32 exited with code 0
+2025/01/07 15:43:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:43:38 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/01/07 15:43:38 [notice] 1#1: worker process 29 exited with code 0
+2025/01/07 15:43:38 [notice] 1#1: exit
+2025/01/07 15:44:03 [notice] 1#1: using the "epoll" event method
+2025/01/07 15:44:03 [notice] 1#1: nginx/1.27.3
+2025/01/07 15:44:03 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/01/07 15:44:03 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2025/01/07 15:44:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/01/07 15:44:03 [notice] 1#1: start worker processes
+2025/01/07 15:44:03 [notice] 1#1: start worker process 28
+2025/01/07 15:44:03 [notice] 1#1: start worker process 29
+2025/01/07 15:44:03 [notice] 1#1: start worker process 30
+2025/01/07 15:44:03 [notice] 1#1: start worker process 31
+2025/01/07 15:44:03 [notice] 1#1: start worker process 32
+2025/01/07 15:44:03 [notice] 1#1: start worker process 33
+2025/01/07 15:44:03 [notice] 1#1: start worker process 34
+2025/01/07 15:44:03 [notice] 1#1: start worker process 35
+2025/01/07 15:44:05 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 15:44:11 [error] 29#29: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 15:46:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/01/07 15:46:51 [notice] 30#30: gracefully shutting down
+2025/01/07 15:46:51 [notice] 29#29: gracefully shutting down
+2025/01/07 15:46:51 [notice] 28#28: gracefully shutting down
+2025/01/07 15:46:51 [notice] 30#30: exiting
+2025/01/07 15:46:51 [notice] 31#31: gracefully shutting down
+2025/01/07 15:46:51 [notice] 28#28: exiting
+2025/01/07 15:46:51 [notice] 29#29: exiting
+2025/01/07 15:46:51 [notice] 31#31: exiting
+2025/01/07 15:46:51 [notice] 32#32: gracefully shutting down
+2025/01/07 15:46:51 [notice] 32#32: exiting
+2025/01/07 15:46:51 [notice] 31#31: exit
+2025/01/07 15:46:51 [notice] 32#32: exit
+2025/01/07 15:46:51 [notice] 30#30: exit
+2025/01/07 15:46:51 [notice] 28#28: exit
+2025/01/07 15:46:51 [notice] 29#29: exit
+2025/01/07 15:46:51 [notice] 33#33: gracefully shutting down
+2025/01/07 15:46:51 [notice] 34#34: gracefully shutting down
+2025/01/07 15:46:51 [notice] 33#33: exiting
+2025/01/07 15:46:51 [notice] 35#35: gracefully shutting down
+2025/01/07 15:46:51 [notice] 34#34: exiting
+2025/01/07 15:46:51 [notice] 35#35: exiting
+2025/01/07 15:46:51 [notice] 34#34: exit
+2025/01/07 15:46:51 [notice] 33#33: exit
+2025/01/07 15:46:51 [notice] 35#35: exit
+2025/01/07 15:46:51 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2025/01/07 15:46:51 [notice] 1#1: worker process 31 exited with code 0
+2025/01/07 15:46:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:46:51 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2025/01/07 15:46:51 [notice] 1#1: worker process 29 exited with code 0
+2025/01/07 15:46:51 [notice] 1#1: worker process 30 exited with code 0
+2025/01/07 15:46:51 [notice] 1#1: worker process 32 exited with code 0
+2025/01/07 15:46:51 [notice] 1#1: worker process 34 exited with code 0
+2025/01/07 15:46:51 [notice] 1#1: worker process 35 exited with code 0
+2025/01/07 15:46:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:46:51 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2025/01/07 15:46:51 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/01/07 15:46:51 [notice] 1#1: worker process 28 exited with code 0
+2025/01/07 15:46:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 15:46:51 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2025/01/07 15:46:51 [notice] 1#1: worker process 33 exited with code 0
+2025/01/07 15:46:51 [notice] 1#1: exit
+2025/01/07 16:47:25 [notice] 1#1: using the "epoll" event method
+2025/01/07 16:47:25 [notice] 1#1: nginx/1.27.3
+2025/01/07 16:47:25 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/01/07 16:47:25 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2025/01/07 16:47:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/01/07 16:47:25 [notice] 1#1: start worker processes
+2025/01/07 16:47:25 [notice] 1#1: start worker process 28
+2025/01/07 16:47:25 [notice] 1#1: start worker process 29
+2025/01/07 16:47:25 [notice] 1#1: start worker process 30
+2025/01/07 16:47:25 [notice] 1#1: start worker process 31
+2025/01/07 16:47:25 [notice] 1#1: start worker process 32
+2025/01/07 16:47:25 [notice] 1#1: start worker process 33
+2025/01/07 16:47:25 [notice] 1#1: start worker process 34
+2025/01/07 16:47:25 [notice] 1#1: start worker process 35
+2025/01/07 16:53:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/01/07 16:53:11 [notice] 28#28: gracefully shutting down
+2025/01/07 16:53:11 [notice] 29#29: gracefully shutting down
+2025/01/07 16:53:11 [notice] 34#34: gracefully shutting down
+2025/01/07 16:53:11 [notice] 31#31: gracefully shutting down
+2025/01/07 16:53:11 [notice] 28#28: exiting
+2025/01/07 16:53:11 [notice] 29#29: exiting
+2025/01/07 16:53:11 [notice] 34#34: exiting
+2025/01/07 16:53:11 [notice] 30#30: gracefully shutting down
+2025/01/07 16:53:11 [notice] 31#31: exiting
+2025/01/07 16:53:11 [notice] 30#30: exiting
+2025/01/07 16:53:11 [notice] 29#29: exit
+2025/01/07 16:53:11 [notice] 28#28: exit
+2025/01/07 16:53:11 [notice] 31#31: exit
+2025/01/07 16:53:11 [notice] 34#34: exit
+2025/01/07 16:53:11 [notice] 30#30: exit
+2025/01/07 16:53:11 [notice] 32#32: gracefully shutting down
+2025/01/07 16:53:11 [notice] 32#32: exiting
+2025/01/07 16:53:11 [notice] 33#33: gracefully shutting down
+2025/01/07 16:53:11 [notice] 33#33: exiting
+2025/01/07 16:53:11 [notice] 32#32: exit
+2025/01/07 16:53:11 [notice] 35#35: gracefully shutting down
+2025/01/07 16:53:11 [notice] 35#35: exiting
+2025/01/07 16:53:11 [notice] 33#33: exit
+2025/01/07 16:53:11 [notice] 35#35: exit
+2025/01/07 16:53:11 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2025/01/07 16:53:11 [notice] 1#1: worker process 30 exited with code 0
+2025/01/07 16:53:11 [notice] 1#1: worker process 28 exited with code 0
+2025/01/07 16:53:11 [notice] 1#1: worker process 31 exited with code 0
+2025/01/07 16:53:11 [notice] 1#1: worker process 34 exited with code 0
+2025/01/07 16:53:11 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 16:53:11 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2025/01/07 16:53:11 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/01/07 16:53:11 [notice] 1#1: worker process 29 exited with code 0
+2025/01/07 16:53:11 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 16:53:11 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2025/01/07 16:53:11 [notice] 1#1: worker process 33 exited with code 0
+2025/01/07 16:53:11 [notice] 1#1: worker process 35 exited with code 0
+2025/01/07 16:53:11 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 16:53:11 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2025/01/07 16:53:11 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2025/01/07 16:53:11 [notice] 1#1: worker process 32 exited with code 0
+2025/01/07 16:53:11 [notice] 1#1: exit
+2025/01/07 16:53:18 [notice] 1#1: using the "epoll" event method
+2025/01/07 16:53:18 [notice] 1#1: nginx/1.27.3
+2025/01/07 16:53:18 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/01/07 16:53:18 [notice] 1#1: OS: Linux 6.8.0-50-generic
+2025/01/07 16:53:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/01/07 16:53:18 [notice] 1#1: start worker processes
+2025/01/07 16:53:18 [notice] 1#1: start worker process 28
+2025/01/07 16:53:18 [notice] 1#1: start worker process 29
+2025/01/07 16:53:18 [notice] 1#1: start worker process 30
+2025/01/07 16:53:18 [notice] 1#1: start worker process 31
+2025/01/07 16:53:18 [notice] 1#1: start worker process 32
+2025/01/07 16:53:18 [notice] 1#1: start worker process 33
+2025/01/07 16:53:18 [notice] 1#1: start worker process 34
+2025/01/07 16:53:18 [notice] 1#1: start worker process 35
+2025/01/07 16:53:38 [error] 28#28: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 16:53:38 [error] 31#31: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 60.250.3.135:80, certificate: "/ssl/server.cer"
+2025/01/07 16:53:38 [error] 32#32: OCSP_basic_verify() failed (SSL: error:13800065:OCSP routines::certificate verify error:Verify error: unable to get local issuer certificate) while requesting certificate status, responder: twcasslocsp.twca.com.tw, peer: 219.87.64.165:80, certificate: "/ssl/server.cer"
+2025/01/07 16:54:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/01/07 16:54:34 [notice] 28#28: gracefully shutting down
+2025/01/07 16:54:34 [notice] 30#30: gracefully shutting down
+2025/01/07 16:54:34 [notice] 29#29: gracefully shutting down
+2025/01/07 16:54:34 [notice] 31#31: gracefully shutting down
+2025/01/07 16:54:34 [notice] 32#32: gracefully shutting down
+2025/01/07 16:54:34 [notice] 33#33: gracefully shutting down
+2025/01/07 16:54:34 [notice] 34#34: gracefully shutting down
+2025/01/07 16:54:34 [notice] 35#35: gracefully shutting down
+2025/01/07 16:54:34 [notice] 30#30: exiting
+2025/01/07 16:54:34 [notice] 28#28: exiting
+2025/01/07 16:54:34 [notice] 29#29: exiting
+2025/01/07 16:54:34 [notice] 32#32: exiting
+2025/01/07 16:54:34 [notice] 34#34: exiting
+2025/01/07 16:54:34 [notice] 35#35: exiting
+2025/01/07 16:54:34 [notice] 30#30: exit
+2025/01/07 16:54:34 [notice] 28#28: exit
+2025/01/07 16:54:34 [notice] 32#32: exit
+2025/01/07 16:54:34 [notice] 34#34: exit
+2025/01/07 16:54:34 [notice] 29#29: exit
+2025/01/07 16:54:34 [notice] 35#35: exit
+2025/01/07 16:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2025/01/07 16:54:34 [notice] 1#1: worker process 29 exited with code 0
+2025/01/07 16:54:34 [notice] 1#1: worker process 35 exited with code 0
+2025/01/07 16:54:34 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 16:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/01/07 16:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2025/01/07 16:54:34 [notice] 1#1: worker process 32 exited with code 0
+2025/01/07 16:54:34 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 16:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2025/01/07 16:54:34 [notice] 1#1: worker process 28 exited with code 0
+2025/01/07 16:54:34 [notice] 1#1: worker process 30 exited with code 0
+2025/01/07 16:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/01/07 16:54:34 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 16:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2025/01/07 16:54:34 [notice] 1#1: worker process 34 exited with code 0
+2025/01/07 16:54:34 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 16:54:34 [notice] 33#33: exiting
+2025/01/07 16:54:34 [notice] 33#33: exit
+2025/01/07 16:54:34 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2025/01/07 16:54:34 [notice] 1#1: worker process 33 exited with code 0
+2025/01/07 16:54:34 [notice] 1#1: signal 29 (SIGIO) received
+2025/01/07 16:54:38 [notice] 31#31: exiting
+2025/01/07 16:54:38 [notice] 31#31: exit
+2025/01/07 16:54:38 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2025/01/07 16:54:38 [notice] 1#1: worker process 31 exited with code 0
+2025/01/07 16:54:38 [notice] 1#1: exit

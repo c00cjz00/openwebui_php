@@ -1,0 +1,62 @@
+version: "3.9"
+
+name: nchcsystem
+
+networks:
+  nchc:
+    external: false
+
+services:
+
+  nchc_openwebui:
+    container_name: nchc_openwebui
+    image: ghcr.io/open-webui/open-webui:main
+    pull_policy: always
+    ports:
+      - 8080:8080
+    volumes:
+      - ./storage/openwebui_data:/app/backend/data
+    restart: unless-stopped
+    networks:
+      - nchc    
+    environment:
+      - 'OPENAI_API_BASE_URLS=https://api.openai.com/v1;https://api.groq.com/openai/v1'
+      - 'OPENAI_API_KEYS=sk-;gsk_'
+      - 'WEBUI_NAME=國網中心'
+    extra_hosts:
+      - host.docker.internal:host-gateway      
+    
+  nchc_php:
+    container_name: nchc_php
+    #image: php:8.3-fpm
+    image: c00cjz00/nchc_php:8.3-fpm
+    ports:
+      - 9000:9000
+    volumes:
+      - ./website:/var/www/html      
+    restart: always
+    networks:
+      - nchc     
+    extra_hosts:
+      - host.docker.internal:host-gateway
+      
+  nchc_nginx:
+    container_name: nchc_nginx
+    image: nginx
+    ports:
+      -  443:443
+    volumes:
+      - ./ssl:/ssl
+      - ./nginx_443:/etc/nginx/conf.d      
+      - ./nginx_logs:/var/log/nginx
+      - ./website:/var/www/html
+    restart: always
+    networks:
+        - nchc
+    depends_on:
+      - nchc_php         
+    extra_hosts:
+      - host.docker.internal:host-gateway
+
+
+
